@@ -1,0 +1,13 @@
+strings and arrays are examples of block of values
+blocks aof values are stored consecutively
+
+1032: 'h'
+1033: 'i'
+1034: '\0'
+
+2064: 3
+2096: 4
+
+{3,4}
+
+integers takes 4 bytes, 

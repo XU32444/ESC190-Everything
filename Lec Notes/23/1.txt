@@ -1,0 +1,14 @@
+
+GOAL = 11
+can have: 7, 1, 5
+
+greedy: 7 + 4 * 1
+smart 5 + 5 + 1
+
+OPT(11): The least num of coins to make 11
+To make 11, we use at least one coin
+If we use 7c, then the num of coins is 1 + OPT(11-7)
+If we use 1c, then the num of coins is 1 + OPT(11-1)
+If we use 5c, then the num of coins is 1 + OPT(11-5)
+
+OPT(11) = 1 +  min(OPT(11-7),)

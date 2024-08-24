@@ -1,0 +1,22 @@
+OPT(i): the value of teh optimal solution for 0...i
+computed
+OPT(0),OPT(1),OPT(2),....,OPT(n)
+
+=> OPT(n) is the optimal solution for 0...n
+
+If we can decompose the solution for 0....k + solution for (n-k), then 
+OPT(n) = OPT(k) + OPT(n-k)
+
+want to decompose the solution n into components I can assemble
+
+OPT(n) = min(OPT(K), OPT(n-k))
+
+That means that the solution to min(OPT(k),OPT(n-k)) is part of the overall solution
+
+The only way to decompose the minimal-cost path problem
+is to chip away one edge at a time
+
+OPT()
+
+
+
